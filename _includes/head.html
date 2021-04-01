@@ -1,20 +1,12 @@
 <head>
-    {% if site.google_analytics %}
-        {% include googeanalytics.html %}
-    {% endif %}
-    
-    <title>{{ site.site_title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="k4p92PduVR_7ZqAlB8-OMnONNOl9GkkmUh4dlKfbY7o" />
-    
-    <link rel="stylesheet" href="vendor/css/normalize.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="vendor/css/hint.base.min.css"/>
-    <link rel="stylesheet" href="vendor/css/semi-transparent-buttons.css"/>
-    <link rel="stylesheet" href="assets/css/progress.css"/>
-    <link rel="stylesheet" href="assets/css/main.css"/>
-    <link rel="stylesheet" href="assets/css/card.css"/>
-    <link rel="shortcut icon" href="assets/images/favicon.ico" />
-    <meta name="description" content="Portfolio - Abhishek Nagekar | Full stack web development, open source and information security">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <!--[if lte IE 8]><script src="{{ "/js/ie/html5shiv.js" | prepend: site.baseurl }}"></script><![endif]-->
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
+  <!--[if lte IE 8]><link rel="stylesheet" href="{{ "/css/ie8.css" | prepend: site.baseurl }}" /><![endif]-->
+  <!--[if lte IE 9]><link rel="stylesheet" href="{{ "/css/ie9.css" | prepend: site.baseurl }}" /><![endif]-->
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 </head>
