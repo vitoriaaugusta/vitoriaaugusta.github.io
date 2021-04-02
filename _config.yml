@@ -13,12 +13,11 @@ email: auroradutraengambiental@hotmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 social:
-  instagram : https://instagram.com/tia_aurora_petflora
-  github: https://github.com/vitoriaaugusta.github.io
-  #email: auroradutraengambiental@hotmail.com
-  celular : (37) 9 9978-0143
+  #twitter : 
+  github: vitoriaaugusta
+  email: auroradutraengambiental@hotmail.com
   #flickr:
-  #instagram:
+  instagram: tia_aurora_petflora
   #youtube-square:
   #spotify:
   #stack-overflow:
