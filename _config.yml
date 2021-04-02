@@ -14,10 +14,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 social:
   #twitter : 
-  github: vitoriaaugusta
-  email: auroradutraengambiental@hotmail.com
+  github: https://github.com/vitoriaaugusta
+  email: vitoriacastrosoares@gmail.com
   #flickr:
-  instagram: tia_aurora_petflora
+  instagram: https://www.instagram.com/tia_aurora_petflora/
   #youtube-square:
   #spotify:
   #stack-overflow:
