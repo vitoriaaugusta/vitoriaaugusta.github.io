@@ -1,4 +1,4 @@
-# Bem-vindo usuario!
+ #Bem-vindo usuario!
 #
 
 # Site settings
@@ -8,7 +8,7 @@ description: |
   Aqui voce encontra as melhores rações para seu amiguinho, brinquedos,petisto, entre outros. 
   Além de claro, um ambiente floral e várias dicas para um melhor cuidado com a sua floração.  
 owner: Tia Aurora # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
+first_published: 2021 # if migrating another site, the year of your first publish
 email: auroradutraengambiental@hotmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
